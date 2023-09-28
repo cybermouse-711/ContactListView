@@ -12,6 +12,7 @@
 		C6E74B772AC4BD1000DF8A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E74B762AC4BD1000DF8A16 /* Assets.xcassets */; };
 		C6E74B7A2AC4BD1000DF8A16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E74B792AC4BD1000DF8A16 /* Preview Assets.xcassets */; };
 		C6E74B812AC4BE2D00DF8A16 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B802AC4BE2D00DF8A16 /* ViewModel.swift */; };
+		C6E74B852AC5F2F400DF8A16 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B842AC5F2F400DF8A16 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C6E74B762AC4BD1000DF8A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6E74B792AC4BD1000DF8A16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6E74B802AC4BE2D00DF8A16 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C6E74B842AC5F2F400DF8A16 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				C6E74B722AC4BD0F00DF8A16 /* ContactListViewApp.swift */,
 				C6E74B742AC4BD0F00DF8A16 /* ContentView.swift */,
 				C6E74B802AC4BE2D00DF8A16 /* ViewModel.swift */,
+				C6E74B842AC5F2F400DF8A16 /* DataManager.swift */,
 				C6E74B762AC4BD1000DF8A16 /* Assets.xcassets */,
 				C6E74B782AC4BD1000DF8A16 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6E74B752AC4BD0F00DF8A16 /* ContentView.swift in Sources */,
+				C6E74B852AC5F2F400DF8A16 /* DataManager.swift in Sources */,
 				C6E74B812AC4BE2D00DF8A16 /* ViewModel.swift in Sources */,
 				C6E74B732AC4BD0F00DF8A16 /* ContactListViewApp.swift in Sources */,
 			);
