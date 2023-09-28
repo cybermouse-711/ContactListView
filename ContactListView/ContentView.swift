@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    private let persons: [Person]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(persons) {person in
+            NavigationLink(destination: PersonView(person: person))
+            
         }
-        .padding()
+        .listStyle(.plain)
+        .navigationTitle("Contact List")
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(persons: [])
     }
 }
