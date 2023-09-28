@@ -15,6 +15,7 @@
 		C6E74B852AC5F2F400DF8A16 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B842AC5F2F400DF8A16 /* DataManager.swift */; };
 		C6E74B872AC5FDB500DF8A16 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B862AC5FDB500DF8A16 /* PersonView.swift */; };
 		C6E74B892AC5FDD200DF8A16 /* DetailsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */; };
+		C6E74B8B2AC60E1400DF8A16 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B8A2AC60E1400DF8A16 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C6E74B842AC5F2F400DF8A16 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		C6E74B862AC5FDB500DF8A16 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 		C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInfoView.swift; sourceTree = "<group>"; };
+		C6E74B8A2AC60E1400DF8A16 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 			children = (
 				C6E74B722AC4BD0F00DF8A16 /* ContactListViewApp.swift */,
 				C6E74B742AC4BD0F00DF8A16 /* ContentView.swift */,
-				C6E74B862AC5FDB500DF8A16 /* PersonView.swift */,
+				C6E74B8A2AC60E1400DF8A16 /* ListView.swift */,
 				C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */,
+				C6E74B862AC5FDB500DF8A16 /* PersonView.swift */,
 				C6E74B802AC4BE2D00DF8A16 /* ViewModel.swift */,
 				C6E74B842AC5F2F400DF8A16 /* DataManager.swift */,
 				C6E74B762AC4BD1000DF8A16 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			files = (
 				C6E74B872AC5FDB500DF8A16 /* PersonView.swift in Sources */,
 				C6E74B752AC4BD0F00DF8A16 /* ContentView.swift in Sources */,
+				C6E74B8B2AC60E1400DF8A16 /* ListView.swift in Sources */,
 				C6E74B852AC5F2F400DF8A16 /* DataManager.swift in Sources */,
 				C6E74B892AC5FDD200DF8A16 /* DetailsInfoView.swift in Sources */,
 				C6E74B812AC4BE2D00DF8A16 /* ViewModel.swift in Sources */,

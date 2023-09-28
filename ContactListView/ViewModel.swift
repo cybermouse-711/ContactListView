@@ -36,6 +36,7 @@ struct Person {
                 number: numbers[index],
                 email: emails[index]
             )
+            persons.append(person)
         }
         
         return persons

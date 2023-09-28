@@ -9,19 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     
-    private let persons: [Person]
+    let persons = Person.getContactList()
     
     var body: some View {
-        List(persons) {person in
-            NavigationLink(destination: PersonView(person: person))
-            
+        TabView {
+            ListView(persons: persons)
+                .tabItem{
+                    Image(systemName: "person")
+                    Text("Contacts")
+                }
+            DetailsInfoView(persons: persons)
+                .tabItem{
+                    Image(systemName: "call")
+                    Text("Numbers")
+                }
         }
-        .listStyle(.plain)
-        .navigationTitle("Contact List")
-        
     }
 }
-
+        
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(persons: [])
