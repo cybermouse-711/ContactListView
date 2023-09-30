@@ -17,7 +17,6 @@ struct DetailsInfoView: View {
                 Section(header: Text("\(person.fullName)")) {
                     
                     ListCellView(image: "phone", info: "\(person.number)")
-                    .padding(.bottom, 10)
                     
                     ListCellView(image: "folder", info: "\(person.email)")
                 }

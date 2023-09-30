@@ -26,7 +26,7 @@ struct PersonView: View {
                     .resizable()
                     .frame(width: 150, height: 150)
                     .opacity(0.4)
-                    .padding(.bottom, 10)
+                    .padding(.bottom, 20)
                 
                 ListCellView(image: "phone", info: "\(person.number)")
                 .padding(.bottom, 10)
