@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Person {
+struct Person: Identifiable {
     
+    let id: Int
     let name: String
     let surname: String
     let number: String
@@ -31,6 +32,7 @@ struct Person {
         
         for index in (0...minimumValue) {
             let person = Person(
+                id: index + 1,
                 name: names[index],
                 surname: surnames[index],
                 number: numbers[index],
