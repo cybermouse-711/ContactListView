@@ -16,6 +16,7 @@
 		C6E74B872AC5FDB500DF8A16 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B862AC5FDB500DF8A16 /* PersonView.swift */; };
 		C6E74B892AC5FDD200DF8A16 /* DetailsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */; };
 		C6E74B8B2AC60E1400DF8A16 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B8A2AC60E1400DF8A16 /* ListView.swift */; };
+		C6E74B9C2AC8AC2000DF8A16 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E74B9B2AC8AC2000DF8A16 /* ListCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C6E74B862AC5FDB500DF8A16 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 		C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInfoView.swift; sourceTree = "<group>"; };
 		C6E74B8A2AC60E1400DF8A16 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C6E74B9B2AC8AC2000DF8A16 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				C6E74B722AC4BD0F00DF8A16 /* ContactListViewApp.swift */,
 				C6E74B8F2AC6129E00DF8A16 /* Views */,
+				C6E74B9A2AC8AAC800DF8A16 /* Modifairs */,
 				C6E74B8E2AC6129600DF8A16 /* Models */,
 				C6E74B8D2AC6128200DF8A16 /* Services */,
 				C6E74B762AC4BD1000DF8A16 /* Assets.xcassets */,
@@ -104,6 +107,14 @@
 				C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C6E74B9A2AC8AAC800DF8A16 /* Modifairs */ = {
+			isa = PBXGroup;
+			children = (
+				C6E74B9B2AC8AC2000DF8A16 /* ListCellView.swift */,
+			);
+			path = Modifairs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				C6E74B892AC5FDD200DF8A16 /* DetailsInfoView.swift in Sources */,
 				C6E74B812AC4BE2D00DF8A16 /* ViewModel.swift in Sources */,
 				C6E74B732AC4BD0F00DF8A16 /* ContactListViewApp.swift in Sources */,
+				C6E74B9C2AC8AC2000DF8A16 /* ListCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

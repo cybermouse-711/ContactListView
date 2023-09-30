@@ -28,18 +28,10 @@ struct PersonView: View {
                     .opacity(0.4)
                     .padding(.bottom, 10)
                 
-                HStack {
-                    Image(systemName: "phone")
-                        .foregroundColor(.blue)
-                    Text("\(person.number)")
-                }
+                ListCellView(image: "phone", info: "\(person.number)")
                 .padding(.bottom, 10)
                 
-                HStack {
-                    Image(systemName: "folder")
-                        .foregroundColor(.blue)
-                    Text("\(person.email)")
-                }
+                ListCellView(image: "folder", info: "\(person.email)")
             }
         }
         .navigationTitle("\(person.fullName)")
