@@ -18,6 +18,6 @@ struct DetailsInfoView: View {
 
 struct DetailsInfoView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailsInfoView(persons: [])
+        DetailsInfoView(persons: Person.getContactList())
     }
 }

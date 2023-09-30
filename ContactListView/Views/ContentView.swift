@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let persons = Person.getContactList()
+    private let persons = Person.getContactList()
     
     var body: some View {
         TabView {
@@ -29,6 +29,6 @@ struct ContentView: View {
         
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(persons: [])
+        ContentView()
     }
 }

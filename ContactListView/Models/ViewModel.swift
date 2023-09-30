@@ -19,7 +19,7 @@ struct Person: Identifiable {
         "\(name) \(surname)"
     }
     
-    func getContactList() -> [Person] {
+    static func getContactList() -> [Person] {
         
         var persons: [Person] = []
         

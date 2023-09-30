@@ -12,7 +12,7 @@ struct ListView: View {
     let persons: [Person]
     
     var body: some View {
-        List(persons) { person in
+        List(persons) { person in //дописать функцию
             NavigationLink(destination: PersonView(person: person))
             
         }
@@ -23,6 +23,6 @@ struct ListView: View {
 
 struct ListWView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView(persons: [])
+        ListView(persons: Person.getContactList())
     }
 }
