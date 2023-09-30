@@ -9,38 +9,45 @@ import SwiftUI
 
 struct PersonView: View {
     
-    private let person: Person()
+    let person: Person
     
     var body: some View {
         ZStack {
-            Color(CGColor(gray: 1.0, alpha: 0.5))
+            Color(UIColor(.gray))
                 .ignoresSafeArea()
+                .opacity(0.3)
             
-            RoundedRectangle(cornerRadius: 15)
+            RoundedRectangle(cornerRadius: 20)
                 .foregroundColor(.white)
                 .frame(width: 300, height: 300)
             
-            VStack {
+            VStack(alignment: .leading) {
                 Image(systemName: "person")
                     .resizable()
-                    .frame(width: 200, height: 200)
+                    .frame(width: 150, height: 150)
+                    .opacity(0.4)
+                    .padding(.bottom, 10)
                 
-                Text("\(person.number)")
-                    .frame(alignment: .leading)
+                HStack {
+                    Image(systemName: "phone")
+                        .foregroundColor(.blue)
+                    Text("\(person.number)")
+                }
+                .padding(.bottom, 10)
                 
-                Text("\(person.email)")
-                    .frame(alignment: .leading)
+                HStack {
+                    Image(systemName: "folder")
+                        .foregroundColor(.blue)
+                    Text("\(person.email)")
+                }
             }
-            
-            Spacer()
         }
         .navigationTitle("\(person.fullName)")
-        .padding()
     }
 }
 
 struct PersonView_Previews: PreviewProvider {
     static var previews: some View {
-        PersonView(person: Person(name: "", surname: "", number: "", email: ""))
+        PersonView(person: Person(id: 0, name: "Anna", surname: "Smit", number: "+1", email: "@mail.ru"))
     }
 }

@@ -30,7 +30,7 @@ struct Person: Identifiable {
         
         let minimumValue = emails.count
         
-        for index in (0...minimumValue) {
+        for index in 0..<minimumValue {
             let person = Person(
                 id: index + 1,
                 name: names[index],

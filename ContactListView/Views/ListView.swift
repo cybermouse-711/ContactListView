@@ -12,12 +12,15 @@ struct ListView: View {
     let persons: [Person]
     
     var body: some View {
-        List(persons) { person in //дописать функцию
-            NavigationLink(destination: PersonView(person: person))
-            
+        NavigationStack {
+            List(persons) { person in
+                NavigationLink(destination: PersonView(person: person)) {
+                    Text(person.fullName)
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("Contact List")
         }
-        .listStyle(.plain)
-        .navigationTitle("Contact List")
     }
 }
 

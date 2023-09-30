@@ -100,8 +100,8 @@
 			children = (
 				C6E74B742AC4BD0F00DF8A16 /* ContentView.swift */,
 				C6E74B8A2AC60E1400DF8A16 /* ListView.swift */,
-				C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */,
 				C6E74B862AC5FDB500DF8A16 /* PersonView.swift */,
+				C6E74B882AC5FDD200DF8A16 /* DetailsInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

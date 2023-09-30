@@ -20,7 +20,7 @@ struct ContentView: View {
                 }
             DetailsInfoView(persons: persons)
                 .tabItem{
-                    Image(systemName: "call")
+                    Image(systemName: "phone")
                     Text("Numbers")
                 }
         }
