@@ -12,7 +12,26 @@ struct DetailsInfoView: View {
     let persons: [Person] 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(persons) { person in
+                Section(header: Text("\(person.fullName)")) {
+                    HStack {
+                        Image(systemName: "phone")
+                            .foregroundColor(.blue)
+                        Text("\(person.number)")
+                    }
+                    .padding(.bottom, 10)
+                    
+                    HStack {
+                        Image(systemName: "folder")
+                            .foregroundColor(.blue)
+                        Text("\(person.email)")
+                    }
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("Contact List")
+        }
     }
 }
 
