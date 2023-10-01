@@ -14,11 +14,11 @@ struct DetailsInfoView: View {
     var body: some View {
         NavigationStack {
             List(persons) { person in
-                Section(header: Text("\(person.fullName)")) {
+                Section(header: Text(person.fullName)) {
                     
-                    ListCellView(image: "phone", info: "\(person.number)")
+                    ListCellView(image: "phone", info: person.number)
                     
-                    ListCellView(image: "folder", info: "\(person.email)")
+                    ListCellView(image: "folder", info: person.email)
                 }
             }
             .listStyle(.plain)

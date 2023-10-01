@@ -16,7 +16,7 @@ struct ListCellView: View {
         HStack {
             Image(systemName: image)
                 .foregroundColor(.blue)
-            Text("\(info)")
+            Text(info)
         }
     }
 }
